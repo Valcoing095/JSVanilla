@@ -16,7 +16,7 @@ fetch('https://rickandmortyapi.com/api/character/?page=19')
                 <div class="card-body m-1">
                   <h5 class="card-title">${element.species}</h5>
                   <p class="card-text">${element.type}</p>
-                  <a href="/Pages/profile.html?name=${element.location.name}" class="btn btn-primary">${element.location.name}</a>
+                  <a href="/Pages/profile.html?name=${element.image}" class="btn btn-primary">${element.location.name}</a>
                 </div>
               </div>
             </div>
